@@ -3,9 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="icon.png">
+    <style>
+        .circular-img {
+            width: 300px; /* Adjust the size as needed */
+            height: 300px; /* Make sure width and height are equal for a perfect circle */
+            border-radius: 50%; /* Makes the image circular */
+            overflow: hidden; /* Hides any overflow content (e.g., if the image is larger) */
+        }
+    </style>
     <title>Document</title>
 </head>
 <body>
+    <div class="circular-img">
+        <img src="icon.png" alt="circular-img" width="300" height="300"> 
+    </div>
     <p>This is the test for second-test branch</p>
     <p id="dateDisplay"></p>
     <script src="JS/index.js"></script>
